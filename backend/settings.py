@@ -75,7 +75,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 CORS_ALLOW_ALL_ORIGINS = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'editor-backend-15u1.onrender.com']
+
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
